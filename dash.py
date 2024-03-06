@@ -99,9 +99,6 @@ fig = go.Figure(data=[go.Sankey(
         source=sources,
         target=targets,
         value=values,
-        color='gray', 
-        line=dict(color='black', width=0.06),
-        hovercolor=["midnightblue"],
     ))])
 
 # Configurações do layout do diagrama, ajustando as margens
