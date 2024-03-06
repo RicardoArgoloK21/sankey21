@@ -1,3 +1,4 @@
 streamlit
 pandas
+dash
 plotly==5.19.0
