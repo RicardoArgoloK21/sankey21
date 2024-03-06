@@ -30,7 +30,7 @@ def process_data(df):
 @st.cache_data  # Atualizado para usar cache_data
 def load_data():
     # df = pd.read_csv('students_connections_2.csv')
-    df = pd.read_csv('https://metabase.k21.com.br/public/question/ca0b837e-d3d8-4b0a-b3fb-db03ff2ed0f8.csv')
+    df = pd.read_csv('https://.csv')
     return df
 
 df = load_data()
