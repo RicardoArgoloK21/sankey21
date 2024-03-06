@@ -99,6 +99,7 @@ fig = go.Figure(data=[go.Sankey(
         source=sources,
         target=targets,
         value=values,
+        hovercolor=["black"],
     ))])
 
 # Configurações do layout do diagrama, ajustando as margens
